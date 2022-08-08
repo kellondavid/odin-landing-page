@@ -1,0 +1,86 @@
+body {
+    font-family: "roboto", sans-serif;
+    background-image: url(./images/cat.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    
+  
+}
+
+.navbar {
+    background: black;
+    opacity: 70%;
+    display: flex;
+    padding-left: 50px;
+    padding-right: 50px;
+} 
+
+.right-side {
+    display: flex;
+    gap: 25px;
+}
+
+
+a {
+    text-decoration: none;
+    color: #E5E7EB;
+}
+
+.headerFlex { 
+    display: flex;
+    width: 500px;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin-bottom: -50px;
+}
+
+.headerText {
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: 100px;
+    margin-top: 250px;
+}
+
+.roundedHeader {
+    border-radius: 25px;
+    border: 2px solid;;
+    display: flex;
+    margin-left: 800px;
+    margin-top: -350px;
+}
+
+.info {
+    margin-top: 150px;
+    margin-bottom: 150px;
+    text-align: center;
+    background: black;
+    opacity: 70%;
+    color: white;
+    padding-bottom: 50px;
+    padding-top: 40px;
+    
+}
+
+.infoRow {
+    display: flex;
+    margin-top: 30px;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 50px;
+}
+
+.img1, img2, img3, img4, {
+    max-width: 200px;
+}
+
+.rounded {
+    border-radius: 25px;
+    border: 2px solid;
+    width: 200px;
+    height: 150px;
+    margin-bottom: 20px;
+}
